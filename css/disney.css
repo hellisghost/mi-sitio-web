@@ -1,0 +1,26 @@
+.titulo{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(242, 230, 230);
+    font-size: 9em;
+    letter-spacing: 10px;
+    font-family: 'WaltographRegular';
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(226, 223, 223);
+    text-shadow: rgb(119, 102, 102);
+
+
+}
+body{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+   align-items: center;
+    background: url(../Screen-Shot-2022-09-11-at-2.02.07-PM.jpg);
+    background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
