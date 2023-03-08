@@ -1,6 +1,18 @@
 body{
     display: flex;
-    flex-direction: column;
+    width: 100%;
+    height: 100vh;
     justify-content: center;
-    
+   align-items: center;
+    background: url(../imagen/Happy\ Kung\ Fu\ GIF\ by\ DreamWorks\ Animation\ -\ Find\ &\ Share\ on\ GIPHY.gif);
+    background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+.oso{
+    color: aliceblue;
+}
+.link{
+    color: chartreuse;
 }

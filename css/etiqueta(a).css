@@ -5,10 +5,11 @@ body{
     height: 100vh;
     justify-content: center;
    align-items: center;
-    background: url(../imagen/cddc271464c7235e951ebce79403b7fa.jpg);
+    background: url(../imagen/Car\ GIF\ -\ Find\ &\ Share\ on\ GIPHY.gif);
     background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
+background-attachment: fixed;
 }
 .titulo{
     color: aliceblue;
