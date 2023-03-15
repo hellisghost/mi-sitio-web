@@ -12,6 +12,11 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #202020;
+        background: url(../imagen/netflix-junio.jpg);
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 h1 {
@@ -19,4 +24,8 @@ h1 {
     letter-spacing: 10px;
     color: red;
     font-family: 'Bebas Neue', cursive;
+}
+
+a {
+    color: #0eeb50;
 }

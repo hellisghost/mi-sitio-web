@@ -1,0 +1,48 @@
+.h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.box-style{
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    display: inline-block;
+}
+
+body {
+    background: url(../imagen/Feliz\ Alegre\ GIF\ -\ Feliz\ Alegre\ Sorriso\ -\ Discover\ &\ Share\ GIFs.gif);
+    background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+
+.box-1 {
+    border: 2px solid rgba(0, 255, 85, 0.9);
+    background-color: rgb(63, 62, 62);
+}
+
+.box-2 {
+    border: 2px dashed darkblue;
+    background-color: rgb(22, 241, 14);
+}
+
+.box-3 {
+    border: 2px dotted red;
+    background-color: rgb(220, 190, 20);
+}
+
+.box-4 {
+    border: 10px double rgb(9, 24, 245);
+    background-color: rgb(5, 230, 238);
+}
+
+a {
+    color: chartreuse;
+}
+
+
+
+
+

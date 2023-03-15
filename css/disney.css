@@ -24,3 +24,6 @@ body{
 background-size: cover;
 background-position: center;
 }
+a {
+    color: chartreuse;
+}
