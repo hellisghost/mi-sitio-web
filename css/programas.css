@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body{
     display: flex;
@@ -5,15 +10,15 @@ body{
     height: 100vh;
     justify-content: center;
    align-items: center;
-    background: url(../imagen/Car\ GIF\ -\ Find\ &\ Share\ on\ GIPHY.gif);
+    background: url(../imagen/Happy\ Kung\ Fu\ GIF\ by\ DreamWorks\ Animation\ -\ Find\ &\ Share\ on\ GIPHY.gif);
     background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
 background-attachment: fixed;
 }
-.titulo{
+.oso{
     color: aliceblue;
 }
 .link{
-    color: aqua;
+    color: chartreuse;
 }
