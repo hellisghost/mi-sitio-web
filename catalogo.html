@@ -1,15 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ES">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catalogo</title>
     <link rel="stylesheet" href="./css/catalogo.css">
+    <title>Catalogo</title>
 
 </head>
 <body>
-    <center><h1>VENTA DE INSTRUMENTOS MUSICALES</h1></center>
 
+    <center><h1>venta de bebeidas de café</h1></center>
+    <selecion class="contenido">
+        <div class="mostrador" id="mostrador">
+            <div class="fila">
+                <div class="item" onclick="cargar(this)" >
+                    <div class="contenedor-foto">
+                        <img src="./imagen/venta/expreso.jpg" alt="">
+                        <p class="descripcion">EXPRESO</p>
+                        <span class="precio">5.000</span>
+                    </div>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="./imagen/venta/americano.jpg" alt="">
+                        <p class="descripcion">AMERICANO</p>
+                        <span class="precio">4.000</span>
+                    </div>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="./imagen/venta/cafe con leche.jpg" alt="">
+                        <p class="descripcion">CAFE CON LECHE</p>
+                        <span class="precio">5.000</span>
+                    </div>
+                </div>     
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="./imagen/venta/cafe-bombon.jpg" alt="">
+                        <p class="descripcion">BOMBON</p>
+                        <span class="precio">6.000</span>
+                    </div>
+                </div>          
+            </div>
+            <div class="fila">
+                <div class="item" onclick="cargar(this)" >
+                    <div class="contenedor-foto">
+                        <img src="./imagen/venta/capuchino.jpg" alt="">
+                        <p class="descripcion">CAPUCHINO</p>
+                        <span class="precio">5.500</span>
+                    </div>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="./imagen/venta/carajillo.jpg" alt="">
+                        <p class="descripcion">CARAJILLO</p>
+                        <span class="precio">8.000</span>
+                    </div>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="./imagen/venta/lungo.jpg" alt="">
+                        <p class="descripcion">LUNGO</p>
+                        <span class="precio">12.000</span>
+                    </div>
+                </div>     
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="./imagen/venta/moca.jpg" alt="">
+                        <p class="descripcion">MOCA</p>
+                        <span class="precio">10.000</span>
+                    </div>
+                </div>          
+            </div>
+        </div>
+
+        <div class="seleccion" id="seleccion">
+            <div class="cerrar" onclick="cerrar()">
+                &#x2715
+            </div>
+            <div class="info">
+                <img src="./imagen/venta/expreso.jpg" alt="img">
+                <h2 class="modelo">EXPRESO</h2>
+                <p id="descripcion">Descripcion de expreso</p>
+
+                <span class="precio" id="precio">5.000</span>
+
+                <div class="fila">
+                    <div class="size">
+                        <label for="">CANTIDAD</label>
+                        <select name="" id="">
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                            <option value="">6</option>
+                        </select>
+                    </div>
+                    <button>AGREGAR AL CARRITO</button>
+                </div>
+            </div>
+        </div>
+    </selecion>
+
+    <script src="./js/catalogo.js"></script>
+
+    <a class="link" href="./index.html">volver al principio</a>
 </body>
 </html>
