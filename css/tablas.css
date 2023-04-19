@@ -15,6 +15,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 table {
@@ -22,7 +23,7 @@ table {
 }
 
 th, td {
-   /* border: 1px solid rgb(64, 64, 64);  */
+   border: 1px solid rgb(64, 64, 64);
     padding: 10px 15px 8px 15px;
     text-align: center;
 }
@@ -34,7 +35,6 @@ table-box {
 
 .dc-color {
     background-color: darkcyan;
-    border-top-left-radius: 20px;
     color: rgb(241, 230, 230);
 }
 .malo{
