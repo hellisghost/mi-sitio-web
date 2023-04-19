@@ -35,5 +35,32 @@ table-box {
 .dc-color {
     background-color: darkcyan;
     border-top-left-radius: 20px;
-    color: white;
+    color: rgb(241, 230, 230);
+}
+.malo{
+    color: red;
+}
+
+.melo{
+    color: darkgreen;
+}
+
+.uno{
+    background-color: rgb(14, 77, 14);
+    color: azure;
+}
+
+.dos {
+    background-color: cyan;
+    color: azure;
+}
+
+.tres{
+    background-color: orangered;
+    color: azure;
+}
+
+.cuatro{
+    background-color: purple;
+    color: azure;
 }
