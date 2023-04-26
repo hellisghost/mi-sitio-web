@@ -98,3 +98,7 @@ input[type="text"]:focus{
         border-radius: 20px;
 
 }
+
+a{
+    color: chartreuse;
+}
