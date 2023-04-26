@@ -4,45 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/formulario.css">
-    <title>formulario</title>
+    <title>Document</title>
 </head>
+<link rel="stylesheet" href="./css/formulario.css">
 <body>
-
-    
-    <div class="form-vox">
-        <form>
-            
-            <div class="form-title">
-                <h1>Registro de vuelo</h1>
-            </div>
-        <label>ingrese el numero de ducumento</label>
+   <div class="main-box">
+    <div class="content-box">
+      <div class="form-title">
+            <span>Avianca-Tiquetes</span>
+        </div>
+            <form>
+        <label>ingrese el numero de documento</label>
         <input type="text">
         <select name="tipo-documento">
-
-            <option value="C.C">Cedula de Ciudadania</option>
-            <option value="T.I">Targeta de Identidad</option>
-            <option value="C.E">Cedula Extranjera</option>
-            <option value="R.C">Registro Civil</option>
-
+            <option value="cc">Cedula de Ciudadania</option>
+            <option value="ti">Tarjeta de Identidad</option>
+            <option value="ti">Cedula de Estrangeria</option>
+            <option value="ti">Registro Civil</option>
         </select>
-
-        <label for="">por favor seleccione la clase</label>
-            <input type="radio" name="clase-vuelo"> primera clase <br>
-            <input type="radio" name="clase-vuelo"> business class <br>
-            <input type="radio" name="clase-vuelo"> clase turista <br>
-        <label for="">por favor seleccione el dia para visualizar los vuelos disponicles</label>
-            <input type="checkbox" name="disponibilidad" value="2023-04-19">miercoles, 19 de abril del 2023 <br>
-            <input type="checkbox" name="disponibilidad" value="2023-04-19">jueves, 20 de abril del 2023 <br>
-            <input type="checkbox" name="disponibilidad" value="2023-04-19">viernes, 21 de abril del 2023 <br>
-            <input type="checkbox" name="disponibilidad" value="2023-04-19">sabado, 22 de abril del 2023 <br>
-            
-            <div class="boton"><input type="button" value="Enviar"></div>
+        <label>por favor, seleccione la clase</label>
+           <input type="radio" name="clase-vuelo">Primera Clase<br>
+           <input type="radio" name="clase-vuelo">Business Clas<br>
+           <input type="radio" name="clase-vuelo">Clase Turista<br>
+           <label>Por favor, selecciones los dias de vuelo</label>
+           <input type="checkbox" name="disponibilidad" value="2023-04-19">Miercoles, 19 de Abril del 2023<br>
+           <input type="checkbox" name="disponibilidad" value="2023-04-19">Jueves, 20 de Abril del 2023<br>
+           <input type="checkbox" name="disponibilidad" value="2023-04-19">Viernes, 21 de Abril del 2023<br>
+           <input type="checkbox" name="disponibilidad" value="2023-04-19">Sabado, 22 de Abril del 2023<br>
+           <input class="boton" type="button" value="ENVIAR">
+    </form>
         
-        </form>
-    </div>
+     </div>
+</div>
     
 
-    <a href="./index.html">volver al principio</a>
+<a href="./index.html">volver al principio</a>
 </body>
 </html>
