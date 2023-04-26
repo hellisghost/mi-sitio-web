@@ -1,11 +1,10 @@
 
 body{
     display: flex;
-    width: 100%;
-    height: 100vh;
+    padding: 35vh;
     justify-content: center;
    align-items: center;
-    background: url(../imagen/Car\ GIF\ -\ Find\ &\ Share\ on\ GIPHY.gif);
+    background: url(../imagen/melo.jpg);
     background-repeat: no-repeat;
 background-size: cover;
 background-position: center;

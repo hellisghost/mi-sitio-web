@@ -5,8 +5,7 @@
 }
 
 body {
-    width: 100%;
-    height: 100vh;
+    padding: 30vh;
     background: url(/imagen/melo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,8 +14,6 @@ body {
 }
 
 .container {
-    width: 100%;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
