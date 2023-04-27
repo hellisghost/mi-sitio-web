@@ -1,0 +1,21 @@
+body {
+    background: url(../imagen/melo.jpg);
+    background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+a {
+    color: chartreuse;
+}
+
+i {
+    color: blue;
+}
+
+.cuadro {
+    
+    padding: 1.6em;
+    height: 25px;
+    height: 80px;
+}
