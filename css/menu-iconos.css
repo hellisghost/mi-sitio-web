@@ -64,11 +64,8 @@ i {
 p {
     color: rgb(0, 0, 0);
 }
-.cuadro:hover{
-    cursor: pointer;
-    color: aliceblue;
-}
 
 .menu:hover{
+    cursor: pointer;
     background-color: aqua;
 }
