@@ -27,6 +27,7 @@ i {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    background-color: white;
 }
 
 .cuadro.close {
@@ -61,5 +62,13 @@ i {
     font-size: 1.3em;
 }
 p {
-    color: aqua;
+    color: rgb(0, 0, 0);
+}
+.cuadro:hover{
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.menu:hover{
+    background-color: aqua;
 }
