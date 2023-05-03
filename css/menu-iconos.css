@@ -12,17 +12,16 @@ background-position: center;
 background-attachment: fixed;
 }
 a {
-    color: chartreuse;
+    color: rgb(117, 231, 4);
 }
 
 i {
-    color: blue;
+    color: rgb(200, 214, 6);
 }
 
 .cuadro {
     width: 200px;
     height: 100vh;
-    background-color: white;
     overflow-x: hidden;
     overflow-y: scroll;
     display: flex;
@@ -50,13 +49,17 @@ i {
 }
 
 .menu > i{
-    color: gray;
+    color: rgb(119, 211, 13);
 }
 
 .nav {
     padding: 10px;
+    color: rgb(230, 0, 0);
 }
 
 .nav > i {
     font-size: 1.3em;
+}
+p {
+    color: aqua;
 }
