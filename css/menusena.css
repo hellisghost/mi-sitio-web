@@ -113,10 +113,23 @@ hr{
 .tabla{
     height: 80px;
   margin-left: 530px;
+  display: inline-block;
+    overflow-y: hidden;
+    text-align: justify;
+    overflow-x: hidden;
+    display: flex;
 }
 .box-img {
     background-color:rgb(250, 250, 250);
+    padding: 15px;
+    display: inline-block;
+    overflow-y: hidden;
+    text-align: justify;
+    overflow-x: hidden;
+    display: flex;
+
 }
 .main-img {
     margin-left: 430px;
+
 }
