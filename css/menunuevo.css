@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Yuji Boku', serif;
+}
+body{
+    background: url(../imagen/melo.jpg);
+    background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+.bar-menu{
+    color: rgb(12, 12, 12);
+    font-size: 2.2em;
+    position: fixed;
+    visibility: hidden;
+    top: 15px;
+    left: 30px;
+    cursor: pointer;
+}
+.main-nav{
+    width: 100%;
+    background-color: rgba(55, 206, 55, 0.951);
+    height: 100px;
+}
+.main-menu{
+    list-style: none;
+    text-align: right;
+    
+}
+a{
+    display: block;
+    color: rgb(22, 21, 21);
+    text-decoration: none;
+    font-size: 1.2em;
+
+}
+.menu-1{
+    height: 81px;
+    display: inline-block;
+    padding: 50px 70px;
+}
+li:hover{
+    cursor: pointer;
+    background-color: rgb(190, 13, 13);
+}
+p{
+    margin: 120px 60px;
+    text-align: justify;
+    font-size: 1em;
+    line-height: 1em;
+}
+@media only screen and (max-width:1152px) {
+    .main-nav{
+        height: 80px;;
+    }
+    .main-menu{
+        display: none; 
+    }
+    .main-menu-visible{
+        display: block;
+        background-color: rgba(158, 214, 27, 0.951);
+    }
+    .menu-1{
+        width: 500px;
+        display: block;
+        text-align: center;
+        visibility: visible;
+        border-bottom: 0px solid white;
+        line-height: 0;
+
+    }
+    a:hover{
+        background-color: rgba(199, 18, 18, 0.9);
+    }
+    .bar-menu{
+        visibility: visible;
+    }
+}
