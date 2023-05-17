@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+html {
+    scroll-behavior: smooth;
+}
+#inicio{
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("/imagen/portafolio/imagen-inicio.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+#inicio .contenido header{
+    background-color: rgba(0,0,0,.8);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+
+#inicio .contenido header .contenido-header {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+#inicio .contenido header .contenido-header h1{
+    text-align: center;
+    color: chartreuse;
+}
+#inicio .contenido header .contenido-header nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+#inicio .contenido header .contenido-header nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 0 12px;
+    font-weight: 400;
+    transition: .5s;
+}
+#inicio .contenido header .contenido-header nav ul a:hover{
+    color: rgb(159, 236, 16);
+}
+#inicio .contenido .presentacion{
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+    columns: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
