@@ -22,7 +22,7 @@ background-attachment: fixed;
 }
 .main-nav{
     width: 100%;
-    background-color: rgba(55, 206, 55, 0.951);
+    background-color: rgba(251, 253, 251, 0.951);
     height: 100px;
 }
 .main-menu{
@@ -61,10 +61,9 @@ p{
     }
     .main-menu-visible{
         display: block;
-        background-color: rgba(158, 214, 27, 0.951);
+        background-color: rgba(255, 255, 255, 0.951);
     }
     .menu-1{
-        width: 500px;
         display: block;
         text-align: center;
         visibility: visible;
@@ -77,5 +76,6 @@ p{
     }
     .bar-menu{
         visibility: visible;
+        
     }
 }
