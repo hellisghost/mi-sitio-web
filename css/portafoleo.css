@@ -85,7 +85,7 @@ html {
 }
 #inicio .contenido .presentacion h2 span{
     font-size: 25px;
-    color: #ff5080;
+    color: #ff0000;
 }
 #inicio .contenido .presentacion .descripcion{
     max-width: 700px;
@@ -478,7 +478,9 @@ footer a{
         display: block;
     }
 }
-
+a {
+    color: #6dff50;
+}
 
 
 

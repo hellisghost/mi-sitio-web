@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(226, 235, 235);
+    text-align: center;
+    margin-top: 450px;
+}
+
+.switch{
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    background-color: rgb(0, 255, 76);
+    border-radius: 40px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.switch::after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    left: 5px;
+    top:5px;
+    transition: all .4s;
+}
+
+input:checked + .switch::after {
+    transform: translateX(40px);
+    background-color: rgb(0, 0, 0);
+}
+
+input:checked + switch{
+    background-color: crimson;
+}
+
+.offscreen {
+    position: absolute;
+    left: -999999px;
+}
+
+.on {
+    position: relative;
+    top: -15px;
+    left: -75px;
+}
+
+.off{
+    position: relative;
+    top: -15px;
+    left: -67px;
+}
