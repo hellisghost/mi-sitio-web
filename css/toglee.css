@@ -1,4 +1,10 @@
 
+body{
+    padding-left: 800px;
+    padding-top: 350px;
+
+}
+
 .toggle-box-off{
     width: 250px;
     height: 120px;
