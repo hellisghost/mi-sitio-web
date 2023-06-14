@@ -11,7 +11,7 @@
 .toggle-box-on{
     width: 250px;
     height: 120px;
-    background-color: rgb(94, 223, 169);
+    background-color: rgb(5, 216, 163);
     border-radius: 65px;
     transition: background-color 600ms;
     cursor: pointer;
@@ -34,7 +34,7 @@
     left: 135px;
     top: -32px;
     border-radius: 55px;
-    background-color: rgb(11, 224, 171);
+    background-color: rgb(207, 241, 12);
     transition: all 1100ms;
 }
 .text-on{
