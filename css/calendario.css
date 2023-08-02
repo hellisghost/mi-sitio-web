@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.contenedor{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: repeat(7, 100px);
+    grid-template-rows: repeat(6, 100px) ;
+    grid-gap: 10px 20px;
+}
+.box{
+    border: 1px solid rgb(54, 241, 8);
+}
+/*.contenedor .item1{
+    background: rgb(9, 223, 80);
+    grid-column-start: 1;
+    grid-column-end: 4;
+}*/ 
+
+.contenedor .inicio{
+    grid-column-start: 4;
+}
+
+.dia{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+.festivo{
+    background-color: brown;
+    color: white;
+}
