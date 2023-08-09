@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    grid-template: "empty-left main-page empty-rigth"100vh/
+            minmax(50px, 1fr)     minmax(900px, 1200px)       minmax(50px, 1fr);
+}
+
+.main-page{
+grid-area: main-page;
+margin-top: 80px;
+}
+
+header{
+    margin-top: 50px;
+    display: grid;
+    gap: 30px;
+    grid-template: "logo main-menu" 80px/
+            150px   minmax(700px, 100%);
+}
+
+.logo{
+    grid-area: logo;
+background-color: chartreuse;
+}
+
+.main-menu{
+    grid-area: main-menu;
+background-color: tomato;
+}
+
+.style-text{
+    font-family: verdana, sans-serif;
+    font-size: 1.6em;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.main-content{
+    display: grid;
+    margin-top: 30px;
+    gap: 40px 70px;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template: "main-img main-img main-img"600px
+    "articule-1 articule-2 articule-3 "
+    "articule-4 articule-5 articule-6"450px/
+                1fr  1fr    1fr;
+}
+
+.main-img{
+    grid-area: main-img;
+    background-color: blueviolet;
+}
+
+.tex-article-1{
+    grid-area: articule-1;
+    
+}
+.tex-article-2{
+    grid-area: articule-2;
+    
+}
+.tex-article-3{
+    grid-area: articule-3;  
+}
+.tex-article-4{
+    grid-area: articule-4;
+    
+}
+.tex-article-5{
+    grid-area: articule-5;
+    
+}
+.tex-article-6{
+    grid-area: articule-6;
+    
+}
+.img-article{
+    height: 350px;
+background-color: black;
+}
+
+.style-text-article{
+    margin-top: 30px;
+    font-size: 1.2em;
+    color: black;
+    font-family: Verdana, sans-serif;
+    line-height: 1.4em;
+    justify-content: center;
+    text-align: justify;
+}
