@@ -12,7 +12,7 @@ html {
     scroll-behavior: smooth;
 }
 #inicio{
-    background: linear-gradient(rgba(96, 190, 42, 0.7), rgba(0,0,0,.7)), url("/imagen/portafolio/lata.jpg");
+    background: linear-gradient(rgba(107, 107, 107, 0.7), rgba(167, 167, 167, 0.7)), url("/imagen/portafolio/terra.jpg");
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -247,7 +247,7 @@ html {
 /*servicio de habilidades*/
 
 .contenedor-skills{
-    background: linear-gradient(#eb5a5acc, rgba(33,16,16,.8)), url("/imagen/portafolio/cha.jpg");
+    background: linear-gradient(#cecd8fcc, rgba(33,16,16,.8)), url("/imagen/portafolio/terra.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
