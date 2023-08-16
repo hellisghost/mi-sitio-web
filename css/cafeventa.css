@@ -1,0 +1,368 @@
+* {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    display: grid;
+    grid-template: "empty-left main-page empty-rigth" 100vh/
+        minmax(50px, 1fr) minmax(900px, 1200px) minmax(50px, 1fr);
+}
+
+.main-page {
+    grid-area: main-page;
+    margin-top: 80px;
+}
+
+header {
+    margin-top: 50px;
+    display: grid;
+    gap: 30px;
+    grid-template: "logo main-menu" 80px/
+        150px minmax(700px, 100%);
+}
+
+.first-item {
+    margin-left: 10px;
+}
+
+ul>li {
+    display: inline-block;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul>li:hover {
+    background-color: rgb(8, 8, 8);
+    cursor: pointer;
+    color: white;
+}
+
+ul>li:hover>a {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+}
+
+
+.bar-menu {
+    color: rgb(12, 12, 12);
+    font-size: 2em;
+    position: absolute;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.main-nav {
+    width: 90%;
+    background-color: rgba(251, 253, 251, 0.951);
+    height: 100px;
+}
+
+.main-menu {
+    list-style: none;
+    text-align: right;
+
+}
+
+.menu-1 {
+    height: 71px;
+    display: inline-block;
+    padding: 30px 50px;
+}
+
+.main-nav-phone {
+    display: none;
+}
+
+
+.logo {
+    grid-area: logo;
+    background: url("/imagen/venta/logo.jpg");
+    width: 90px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-menu {
+    grid-area: main-menu;
+    color: black;
+}
+
+.style-text {
+    font-family: verdana, sans-serif;
+    font-size: 1.6em;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.main-content {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    display: grid;
+    margin-top: 30px;
+    gap: 40px 70px;
+    grid-template: "main-img main-img main-img" 600px
+        "articule-1 articule-2 articule-3 "
+        "articule-4 articule-5 articule-6";
+
+}
+
+.main-img {
+    grid-area: main-img;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: 3em;
+    background: url("/imagen/venta/opopopo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.tex-article-1 {
+    grid-area: articule-1;
+
+}
+
+.tex-article-2 {
+    grid-area: articule-2;
+
+}
+
+.tex-article-3 {
+    grid-area: articule-3;
+}
+
+.tex-article-4 {
+    grid-area: articule-4;
+
+}
+
+.tex-article-5 {
+    grid-area: articule-5;
+
+}
+
+.tex-article-6 {
+    grid-area: articule-6;
+
+}
+
+.img-article {
+    height: 200px;
+    width: 200px;
+    background: url("/imagen/venta/cafe-bombon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-article-1 {
+    height: 200px;
+    width: 200px;
+    background: url("/imagen/venta/capuchino.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-article-2 {
+    height: 200px;
+    width: 200px;
+    background: url("/imagen/venta/expreso.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-article-3 {
+    height: 200px;
+    width: 200px;
+    background: url("/imagen/venta/carajillo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-article-4 {
+    height: 200px;
+    width: 200px;
+    background: url("/imagen/venta/cafe\ con\ leche.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-article-5 {
+    height: 200px;
+    width: 200px;
+    background: url("/imagen/venta/moca.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.style-text-article {
+    margin-top: 30px;
+    font-size: 1.2em;
+    color: black;
+    font-family: Verdana, sans-serif;
+    line-height: 1.4em;
+    justify-content: center;
+    text-align: justify;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    body {
+        display: grid;
+        grid-template: "empty-left main-page empty-right" 100vh /
+            minmax(50px, 1fr) minmax(700px, 991px) minmax(50px, 1fr);
+    }
+
+    header {
+        display: grid;
+        gap: 30px;
+        grid-template: "logo main-menu" 80px / 150px minmax(250px, 100%);
+    }
+
+    .main-page {
+        grid-area: main-page;
+        margin-top: 80px;
+    }
+
+    .main-content {
+        display: grid;
+        margin-top: 30px;
+        gap: 40px 70px;
+        grid-template: "main-img main-img main-img" /500px
+            "articule-1 articule-2 articule-3"
+            "articule-4 articule-5 articule-6";
+    }
+
+    .main-img {
+        grid-area: main-img;
+        background-color: rgb(143, 11, 251);
+        border-radius: 8px;
+    }
+
+    .img-article {
+        height: 450px;
+        background-color: black;
+        border-radius: 8px;
+    }
+
+    .style-text-article {
+        padding-top: 30px;
+        text-align: justify;
+        font-size: 1.2em;
+        font-family: verdana, sans-serif;
+        line-height: 1.4em;
+        color: black;
+        justify-content: center;
+        text-align: justify;
+    }
+}
+
+@media(max-width: 758px) {
+    body {
+        display: grid;
+        grid-template: "empty-left main-page empty-right" 100vh /
+            minmax(30px, 1fr) minmax(230px, 760px) minmax(30px, 1fr);
+    }
+
+    header {
+        grid-template: "logo main-menu" 80px / 150px minmax(100px, 100%);
+    }
+
+    .main-page {
+        grid-area: main-page;
+        margin-top: 90px;
+    }
+
+    .main-content {
+        display: grid;
+        grid-template:
+            "main-img"
+            auto
+            "articule-1"
+            "articule-2"
+            "articule-3"
+            "articule-4"
+            "articule-5"
+            "articule-6" 1fr;
+    }
+
+    .main-img {
+        grid-area: main-img;
+        height: 480px;
+        background-color: rgb(151, 0, 238);
+        border-radius: 8px;
+    }
+
+    .img-article {
+        height: 180px;
+        background-color: rgb(10, 10, 10);
+        border-radius: 8px;
+    }
+
+    .style-text-article {
+        padding-top: 20px;
+        text-align: justify;
+        font-size: 1em;
+        font-family: verdana, sans-serif;
+        line-height: 1.1em;
+        color: black;
+        justify-content: center;
+        text-align: justify;
+    }
+
+}
+
+@media only screen and (max-width:750px) {
+
+    /* .main-nav{
+        height: 80px;;
+    }
+    .main-menu{
+        display: none; 
+    }
+    /* .main-menu-visible{
+        display: block;
+        background-color: rgba(255, 255, 255, 0.951);
+    } */
+    .menu-1 {
+        display: block;
+        text-align: center;
+        visibility: visible;
+        border-bottom: 0px solid white;
+        line-height: 0;
+
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    a:hover {
+        background-color: rgba(199, 18, 18, 0.9);
+    }
+
+    .bar-menu {
+        visibility: visible;
+
+    }
+}
