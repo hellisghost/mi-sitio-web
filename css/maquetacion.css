@@ -149,11 +149,11 @@ background-color: black;
     body {
         display: grid;
         grid-template: "empty-left main-page empty-right" 100vh /
-        minmax(50px, 1fr) minmax(350px, 760px) minmax(50px, 1fr);
+        minmax(50px, 1fr) minmax(180px, 760px) minmax(50px, 1fr);
     }
 
     header {
-        grid-template: "logo main-menu" 80px / 150px minmax(130px, 100%);
+        grid-template: "logo main-menu" 80px / 150px minmax(120px, 100%);
     }
     .main-page {
         grid-area: main-page;
