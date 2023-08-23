@@ -31,7 +31,7 @@ header {
 ul>li {
     display: inline-block;
     text-align: center;
-    display: flex;
+    display: flex; 
     align-items: center;
     justify-content: center;
 }
