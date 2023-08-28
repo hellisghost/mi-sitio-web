@@ -372,17 +372,19 @@ html {
 }
 #portafolio .fila .proyecto .info{
     position: absolute;
+    font-style: italic;
+    font-size: 1.2em;
     left: 0;
     background-color: rgba(0, 0, 0, .8);
-    color: #ff5080;
+    color: #ec0303;
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     opacity: 0;
     bottom: -40px;
-    transition: .5s;
+    transition: .7s;
 }
 #portafolio .fila .proyecto:hover .info{
-    opacity: 1;
+    opacity: 8;
     bottom: 0;
 }
 
@@ -483,9 +485,7 @@ footer a{
     }
 
 }
-a {
-    color: #6dff50;
-}
+
 
 
 
