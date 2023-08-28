@@ -126,7 +126,7 @@ a {
     align-items: center;
     color: aliceblue;
     font-size: 3em;
-    background: url("../imagen/venta/opopopo.jpg");
+    background: url("../imagen/MAQUETACION/lungo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -164,7 +164,7 @@ a {
 .img-article {
     height: 200px;
     width: 200px;
-    background: url("../imagen/venta/cafe-bombon.jpg");
+    background: url("../imagen/MAQUETACION/bombon.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -173,7 +173,7 @@ a {
 .img-article-1 {
     height: 200px;
     width: 200px;
-    background: url("../imagen/venta/capuchino.jpg");
+    background: url("../imagen/MAQUETACION/capuchino.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -182,7 +182,7 @@ a {
 .img-article-2 {
     height: 200px;
     width: 200px;
-    background: url("../imagen/venta/expreso.jpg");
+    background: url("../imagen/MAQUETACION/expresso.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -191,7 +191,7 @@ a {
 .img-article-3 {
     height: 200px;
     width: 200px;
-    background: url("../imagen/venta/carajillo.jpg");
+    background: url("../imagen/MAQUETACION/carajillo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -200,7 +200,7 @@ a {
 .img-article-4 {
     height: 200px;
     width: 200px;
-    background: url("../imagen/venta/cafe\ con\ leche.jpg");
+    background: url("../imagen/MAQUETACION/cafeconleche.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -209,7 +209,7 @@ a {
 .img-article-5 {
     height: 200px;
     width: 200px;
-    background: url("../imagen/venta/moca.jpg");
+    background: url("../imagen/MAQUETACION/moka.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
