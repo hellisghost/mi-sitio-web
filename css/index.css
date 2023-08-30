@@ -87,8 +87,8 @@ html {
     text-align: center;
 }
 #inicio .contenido .presentacion h2 span{
-    font-size: 25px;
-    color: #ff0000;
+    font-size: 35px;
+    color: #c7fc08;
 }
 #inicio .contenido .presentacion .descripcion{
     max-width: 700px;
