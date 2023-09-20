@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 95px;
+    z-index: 20;
+}
+
+.feish-box-slaider{
+    width: 100%;
+    overflow: hidden;
+}
+.box-slaider{
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: calc(100vh - 95px);
+    position: relative;
+    z-index: 10;
+    transition: .5s all linear;
+}
+.box-slaider1{
+    left: 0%;
+}
+.box-slaider2{
+    left: -100%;
+}
+.box-slaider3{
+    left: -200%;
+}
+.box-slaider4{
+    left: -300%;
+}
+.box-slaider5{
+    left: -400%;
+}
+.icons-chevron{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.box-icon-chevron-left, .box-icon-chevron-right{
+    color: aliceblue;
+    font-size: 3.5em;
+    position: relative;
+    top: calc((-100vh) + 500px);
+    z-index: 20;
+    padding: 0 50px;
+}
+.box-icon-chevron-right{
+    display: flex;
+    justify-content: flex-end;
+    top: calc((-100vh) + 400px);
+}
+.icons-chevron-right{
+    cursor: pointer;
+}
+.icons-chevron-left{
+    cursor: pointer;
+}
+.img-slider{
+    width: 100%;
+}
+
+.box-box-signal{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -35px;
+    z-index: 150px;
+}
+.box-signal{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 20px;
+    z-index: 160;
+}
+.signal{
+    width: 120px;
+    height: 20px;
+    background-color: red;
+    padding: 0 25px;
+}
