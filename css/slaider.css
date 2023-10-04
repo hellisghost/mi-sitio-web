@@ -5,74 +5,68 @@
 }
 header{
     height: 95px;
-    z-index: 20;
 }
-
-.feish-box-slaider{
-    width: 100%;
-    overflow: hidden;
-}
-.box-slaider{
-    position: fixed;
-    top: 0;
+.box-slider{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     height: calc(100vh - 95px);
     position: relative;
     z-index: 10;
-    transition: .5s all linear;
+    transition:left 1200ms ;
 }
-.box-slaider1{
+body{
+    background: linear-gradient(to right, #ff8800, #e99957, #f0b879, #e0b082); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+.page-box-slider{ 
+    width: 100%;
+    overflow: hidden;
+}
+.box-img1{
+    padding: 0 300px ;
+}
+.box-img2{
+    padding: 0 300px;
+}
+.box-img3{
+    padding: 0 300px;
+}
+.box-slider-1{
     left: 0%;
 }
-.box-slaider2{
+.box-slider-2{
     left: -100%;
 }
-.box-slaider3{
+.box-slider-3{
     left: -200%;
 }
-.box-slaider4{
-    left: -300%;
-}
-.box-slaider5{
-    left: -400%;
-}
-.icons-chevron{
-    height: 100vh;
-    display: flex;
-    align-items: center;
+.img-slider{
+    width: 100%;
 }
 .box-icon-chevron-left, .box-icon-chevron-right{
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     font-size: 3.5em;
     position: relative;
-    top: calc((-100vh) + 500px);
+    top: calc((-100vh)+400px);
+   
     z-index: 20;
     padding: 0 50px;
 }
 .box-icon-chevron-right{
     display: flex;
-    justify-content: flex-end;
-    top: calc((-100vh) + 400px);
+    justify-content:flex-end ;
+   position: relative;
+    margin-top: -100px;
+    top: calc(100vh+500px);
 }
-.icons-chevron-right{
-    cursor: pointer;
-}
-.icons-chevron-left{
-    cursor: pointer;
-}
-.img-slider{
-    width: 100%;
-}
-
-.box-box-signal{
-    width: 100%;
-    display: flex;
-    justify-content: center;
+.box-icon-chevron-left{
+    margin-top: -400px;
     position: relative;
-    top: -35px;
-    z-index: 150px;
+}
+.box-icon-chevron-left, .box-icon-chevron-right{
+    cursor: pointer;
 }
 .box-signal{
     width: 400px;
@@ -80,11 +74,21 @@ header{
     flex-direction: row;
     justify-content: space-around;
     height: 20px;
-    z-index: 160;
 }
 .signal{
+    margin-top: 345px;
     width: 120px;
     height: 20px;
     background-color: red;
     padding: 0 25px;
+    z-index: 40;
+}
+.signal1{
+    margin-left: 1000px;
+}
+.signal2{
+    margin-left: 20px;
+}
+.signal3{
+    margin-left: 20px;
 }

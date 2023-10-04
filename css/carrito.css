@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Caveat', cursive;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-conter{
+    width: 1000px;
+    border: 2px solid rgb(66,65,65);
+    border-radius: 10px;
+    margin: 10px 0 0 10px;
+    overflow: hidden;
+}
+
+.box-subtotal{
+    padding: 20px 20px 15px 20px;
+    font-size: 1.5em;
+}
+
+#subtotal{
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.box-procederpago{
+    margin: 0 20px 20px 20px;
+    padding: 0 20px 20px 20px;
+    background: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 1.4em;
+
+}
+
+#numeroproductos{
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+img{
+    padding: 20px;
+    width: 400px;
+    height: 500px;
+    border-radius: 30px;
+}
+.product-content{
+    display: grid;
+    grid-template: "empy-left box-img-producto box-info-product empy-right"/
+                    20px    4fr    4fr         20px;
+}
+
+.box-img-producto{
+    grid-area: box-img-producto;
+
+}
+.box-info-producto {
+    grid-area: box-info-product;
+    background: greenyellow;
+}
+.box-buttons-cantidad{
+    font-size: 1.3em;
+    display: flex;
+    flex-direction: row;
+}
+.box-minus,.box-cant,.box-plus{
+    width: 60px;
+    height: 40px;
+    display: flex;
+    margin-bottom: 18px;
+    margin-top: -18px;
+    padding: 0px 30px 0px 30px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(66,65,65);
+}
+
+.box-minus{
+    margin-left: 60px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: rgb(70, 67, 60);
+}
+.box-plus{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: rgb(70, 67, 60);
+}
