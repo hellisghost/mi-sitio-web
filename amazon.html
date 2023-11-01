@@ -78,10 +78,10 @@
 </header>
       <!-- //esto es para la pagina desplegable  -->
     
-<header class="antes_modal">
+<header class="antes_modal" id="imagenabrir">
 
-        <div class="imagen_ingreso"  id="imagenabrir">
-          <a href="#"><img src="imagen/amazon/cerveza1.jpg" alt=""></a>
+        <div class="imagen_ingreso" >
+          <a href="#"><img src="imagen/amazon/cerveza1.jpg" alt="" id="abrirModal"></a>
         </div>
         
         <div class="texto">
@@ -96,31 +96,33 @@
         <button>agregar al carrito</button>
       </div>
 
-    <main id="modal">
+    <main id="miModal" class="cerrar">
       <div class="modal">
         <div>
+          <i id="cerrarModal" class="fa-solid fa-xmark"></i>
           <ul class="superior">
             <li><a href="#">videos</a></li>
-            <li><a href="#">imagene</a></li>
-            <i class="fa-solid fa-xmark" id="close"></i>
+            <li><a class="marcado" href="#">imagene</a></li>
             </ul>
         </div>
         <hr>
         <div class="product-container">
           <div class="product-image">
-            <img class="num1" id="num1" src="imagen/amazon/cerveza1.jpg" alt="Imagen del producto" width="500px">
+            <img class="imagen" id="imagenModal" src="imagen/amazon/cerveza1.jpg" alt="Imagen del producto">
           </div>
         </div>
       
+        <div class="descripcion">
         <div class="product-info">
-          <p>esto es una increible cargadora de bebidas hidratantes la cual permite una increible mobilidad la cual lo salvaria de derramar este elixir de dios creado por el hombre para relajar el cuerpo y tranquilizar el alma</p>
+          <p id="descripcionmodal">esto es una increible cargadora de bebidas hidratantes la cual permite una increible mobilidad la cual lo salvaria de derramar este elixir de dios creado por el hombre para relajar el cuerpo y tranquilizar el alma</p>
         </div>
+      </div>
         <div class="imagenes_cambio">
-          <div class="individual">
-            <img class="num2" id="num2" src="imagen/amazon/cerveza2.jpg" alt="">
-            <img class="num3" id="num3" src="imagen/amazon/cerveza3.jpg" alt="">
-            <img class="num4" id="num4" src="imagen/amazon/cerveza4.jpg" alt="">
-            <img class="num5" id="num5" src="imagen/amazon/cerveza5.jpg" alt="">
+            <img class="num1 activado img" id="num1" src="imagen/amazon/cerveza1.jpg">
+            <img class="num2 img" id="num2" src="imagen/amazon/cerveza2.jpg">
+            <img class="num3 img" id="num3" src="imagen/amazon/cerveza3.jpg">
+            <img class="num4 img" id="num4" src="imagen/amazon/cerveza4.jpg">
+            <img class="num5 img" id="num5" src="imagen/amazon/cerveza5.jpg">
           </div>
         </div>
       

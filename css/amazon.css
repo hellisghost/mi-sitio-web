@@ -26,7 +26,7 @@ display: flex;
 align-items: center;
 cursor: pointer;
 color: #fff;
-max-width: 1500px;
+max-width: 1800px;
 margin: 1px;
 }
 
@@ -49,7 +49,7 @@ margin: 1px;
 .nav-search {
   display: flex;
   justify-content: space-evenly;
-  max-width: 800px;
+  max-width: 900px;
   width: 100%;
   height: 40px;
   border-radius: 4px;
@@ -58,10 +58,10 @@ margin: 1px;
 
 .select-search {
   background: #f3f3f3;
-  width: 50px;
+  width: 90px;
   text-align: center;
-  border-top-left-radius: 4px;
-  border-bottom-left-radius: 4px;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
   border: none;
   cursor: pointer;
 }
@@ -72,7 +72,7 @@ margin: 1px;
   font-size: 1rem;
   border: none;
   outline: none;
-  padding-left: 10px;
+  padding-left: 20px;
 }
 
 .search-icon {
@@ -174,63 +174,65 @@ main{
   top: 0;
   left: 0;
   display: flex;
+  padding-left: 60px;
+  padding-top: 100px;
   justify-content: center;
   align-items: center;
   background-color: rgba(0,0,0,0.7);
 }
 .modal{
-  width: 70%;
-  height: 80%;
+  width: 90%;
+  height: 75%;
   background: #f3f3f3;
+  
+}
+.cerrar{
+  display: none;
 }
 .product-image img{
   margin: 20px;
   width: 450px;
 }
+.product-image{
+  margin-left: 229px;
+}
 
 .product-info{
   display: flex;
-  margin-left: 560px;
-  margin-top: -580px;
-  padding: 90px;
+  margin-left:1060px;
+  margin-top: -480px;
 }
 
-.info p{
+.product-info p{
   display: flex;
-  margin-left: 600px;
-  padding: 12px;
+  margin-left: 42px;
+  font-size: 12px;
+}
+.descripcion{
+  margin-right: 63px;
 }
 
 .imagenes_cambio{
 display: flex;
-padding-left: 650px;
+margin-top: 32px;
+margin-left: 1090px;
 }
 
-.imagenes_cambio img{
-  width: 70px;
-  padding: 10px;
-}
-.num1{
-  cursor: pointer;
-  border-color: black;
-}
-.num2{
-  cursor: pointer;
-  border-color: black;
-}
-.num3{
-  cursor: pointer;
-  border-color: black;
-}
-.num4{
-  cursor: pointer;
-  border-color: black;
-}
-.num5{
-  cursor: pointer;
-  border-color: black;
+.imagenes_cambio > img {
+  padding: 5px;
+  border: 2px solid black;
 }
 
+.imagenes_cambio > .activado{
+    border: 3px solid #ff9002;
+}
+
+.img{
+  width: 35px;
+  cursor: pointer;
+  border-color: black;
+  margin: 5px;
+}
 .superior a{
  margin-left: 10px;
  color: #000;
@@ -248,20 +250,21 @@ padding-left: 650px;
   border: #febd68;
 }
 
-#close{
+.fa-xmark{
   display: flex;
-  margin-left: 920px;
+  margin-left: 1395px;
   border: 1px solid blue;
-  border-radius: 4px;
+  border-radius: 5px;
   line-height: 1.1em;
-  padding: 1px 4px 0 1px;
   cursor: pointer;
+  font-size: 25px;
 }
 .imagen_ingreso img{
   margin: 90px;
   width: 300px;
   cursor: pointer;
 }
+
 .texto{
   margin-left: 15px;
   padding: 15px;
@@ -286,5 +289,7 @@ button{
 .antes_modal{
   background-color: #f3f3f3;
 }
-
+.marcado{
+  border-bottom: 3px solid #ff9002;
+}
 
