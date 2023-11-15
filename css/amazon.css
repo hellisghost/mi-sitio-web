@@ -293,3 +293,209 @@ button{
   border-bottom: 3px solid #ff9002;
 }
 
+/* imagen para el inicio */
+.inicio{
+  overflow-x: hidden;
+}
+
+.imagen_prin{
+  padding-top: 12px;
+  width: 500px;
+  position: relative;
+  left: 100px;
+  display: flex;
+  overflow-x:auto;
+}
+.tienda{
+    display: flex;
+    position: relative ;
+    width: 350px;
+    font-size: 19px;
+    color: rgb(8, 169, 219);
+    bottom: 580px;
+    left: 800px;
+}
+.tienda_text{
+  color: rgb(8, 169, 219);
+}
+.tienda_text:hover{
+  color: rgb(255, 136, 0);
+  text-decoration: solid;
+}
+.text-init{
+  display: flex;
+  position: relative ;
+  width: 350px;
+  font-size: 28px;
+  bottom: 580px;
+  left: 800px;
+}
+.sub-imagenes{
+ display: flex;
+   width: 250px;
+   position: relative;
+   bottom: -50px;
+   margin-left: 300px;
+ }
+ .primero_segunda{
+  width: 50px;
+  display: flex;
+  position: relative;
+  border: 1px solid rgb(165, 165, 165);
+  border-radius: 8px;
+  margin: 5px;
+}
+.segunda_segunda{
+  display: flex;
+  position: relative;
+  width: 50px;
+  border: 1px solid rgb(165, 165, 165);
+  border-radius: 8px;
+  margin: 5px;
+}
+.tercer_segunda{
+  width: 50px;
+  display: flex;
+  position: relative;
+  border: 1px solid rgb(165, 165, 165);
+  border-radius: 8px;
+  margin: 5px;
+}
+.cuarta_segunda{
+  width: 50px;
+  position: relative;
+  display: flex;
+  border: 1px solid rgb(165, 165, 165);
+  border-radius: 8px;
+  margin: 5px;
+}
+.quinta_segunda{
+  width: 50px;
+  display: flex;
+  position: relative;
+  border: 1px solid rgb(165, 165, 165);
+  border-radius: 8px;
+  margin: 5px;
+}
+
+/*ESTO SON LAS NOTAS DE VISUALIZACION DE LOS PRODUCTO*/
+.estrellas{
+  display: flex;
+  position: relative ;
+  color: #febd68;
+  font-size: 18px;
+  bottom: 603px;
+  left: 830px;
+}
+
+.down{
+  display: flex;
+  position: relative ;
+  
+  font-size: 12px;
+  bottom: 603px;
+  left: 837px;
+}
+.calificaciones{
+  display: flex;
+  position: relative ;
+  width: 350px;
+    font-size: 13px;
+    color: rgb(8, 169, 219);
+  bottom: 623px;
+  left: 980px;
+}
+.uno{
+  bottom: 575px;
+  left: 858px;
+  display: flex;
+  position: relative ;
+  color: rgb(255, 136, 0);
+}
+.dos{
+  bottom: 595px;
+  left: 800px;
+  display: flex;
+  position: relative ;
+color: rgb(255, 255, 255);
+
+}
+.informacion{
+  display: flex;
+  position: relative ;
+  bottom: 585px;
+  left: 800px;
+}
+.lo{
+  display: flex;
+  position: relative ;
+  bottom: 642px;
+  left: 800px;
+z-index: -1;
+  height: 33px;
+  background-color: #222f3d;
+
+  width: 140px;
+}
+.calificaciones:hover{
+  color: rgb(255, 136, 0);
+  text-decoration: solid;
+
+}
+.calificacion{
+  display: flex;
+  position: relative ;
+ 
+  font-size: 18px;
+  bottom: 580px;
+  left: 800px;
+}
+
+/*ESTO son las imagenes del modal*/
+.imagenes{
+ display: flex;
+ width: 250px;
+ margin-top: -480px;
+ margin-left: 900px;
+ 
+}
+.primero{
+  width: 50px;
+  display: flex;
+  position: relative;
+  border: 1px solid rgb(165, 165, 165);
+  border-radius: 8px;
+  margin: 5px;
+}
+.segunda{
+  display: flex;
+  position: relative;
+  width: 50px;
+  border: 1px solid rgb(165, 165, 165);
+  border-radius: 8px;
+  margin: 5px;
+}
+.tercer{
+  width: 50px;
+  display: flex;
+  position: relative;
+  border: 1px solid rgb(165, 165, 165);
+  border-radius: 8px;
+  margin: 5px;
+}
+.cuarta{
+  width: 50px;
+  position: relative;
+  display: flex;
+  border: 1px solid rgb(165, 165, 165);
+  border-radius: 8px;
+  margin: 5px;
+}
+.quinta{
+  width: 50px;
+  display: flex;
+  position: relative;
+  border: 1px solid rgb(165, 165, 165);
+  border-radius: 8px;
+  margin: 5px;
+}
