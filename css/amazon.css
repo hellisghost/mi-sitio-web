@@ -31,9 +31,9 @@ margin: 1px;
 }
 
 .nav-logo img {
-  padding: 25px;
+  padding: 15px;
   margin-top: 5px;
-  width: 110px;
+  width: 100px;
 }
 
 .address .deliver {
@@ -117,10 +117,60 @@ margin: 1px;
 }
 
 .banner {
-  padding: 10px 20px;
+  padding: 6px;
   background: #222f3d;
+  color: black;
+  font-size: 0.925rem;
+}
+.banner-1 {
+  padding: 5px;
+  background: #f3f4f6;
   color: #fff;
-  font-size: 0.875rem;
+  font-size: 0.925rem;
+}
+.contenedor2{
+  margin-left: 160px;
+  cursor: pointer;
+}
+.escritocontenedor2{
+  display: flex;
+  margin-left: 30px;
+  margin-top: 10px;
+  font-size: 12px;
+  max-width: 55%;
+  font-weight: bold;
+}
+.escritocontenedor2 > a{
+  color: #000;
+  cursor: pointer;
+}
+.captura1{
+  display: flex;
+  padding-right: 27px;
+  cursor: pointer;
+}
+.captura2{
+  display: flex;
+  padding-right: 221px;
+  cursor: pointer;
+}
+
+.banner-2 {
+  padding: 11px;
+  background-color: #fff;
+}
+
+.links-contenedor3{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 10px;
+  flex-grow: 1;
+  font-size: 11px;
+  margin-left: 35px;
+}
+.links-contenedor3 > li > a{
+  color: #000;
 }
 
 .banner-content {
@@ -131,15 +181,13 @@ margin: 1px;
 }
 
 .panel {
-  max-width: 1280px;
   display: flex;
   align-items: center;
-  gap: 5px;
   cursor: pointer;
 }
-
-.panel span {
-  margin-right: 7px;
+.panel > .menu{
+  margin-left: -10px;
+  color: #fff;
 }
 
 .links {
@@ -148,7 +196,7 @@ margin: 1px;
   list-style: none;
   gap: 15px;
   flex-grow: 1;
-  margin-left: 15px;
+  margin-left: 10px;
 }
 
 .links a {
@@ -164,6 +212,8 @@ margin: 1px;
     margin-top: 14px;
     padding-right: 15px;
 }
+
+
 
 /* para realizacion de la pagina desplegable */
 
@@ -299,12 +349,12 @@ button{
 }
 
 .imagen_prin{
-  padding-top: 12px;
-  width: 500px;
+  margin-top: 14px;
+  width: 600px;
+  height: 610px;
   position: relative;
   left: 100px;
   display: flex;
-  overflow-x:auto;
 }
 .tienda{
     display: flex;
@@ -323,59 +373,55 @@ button{
   text-decoration: solid;
 }
 .text-init{
+  margin-top: 295px;
   display: flex;
   position: relative ;
   width: 350px;
-  font-size: 28px;
+  font-size: 18px;
   bottom: 580px;
   left: 800px;
 }
 .sub-imagenes{
- display: flex;
-   width: 250px;
-   position: relative;
-   bottom: -50px;
-   margin-left: 300px;
+  margin-top: -607px;
+  margin-left: 33px;
  }
- .primero_segunda{
-  width: 50px;
+ .fondo{
+  width:37px;
   display: flex;
   position: relative;
   border: 1px solid rgb(165, 165, 165);
   border-radius: 8px;
-  margin: 5px;
+  
 }
-.segunda_segunda{
-  display: flex;
-  position: relative;
-  width: 50px;
-  border: 1px solid rgb(165, 165, 165);
-  border-radius: 8px;
-  margin: 5px;
+.primero{
+margin: 5px;
+margin-left: 15px;
+margin-bottom: 10px;
 }
-.tercer_segunda{
-  width: 50px;
-  display: flex;
-  position: relative;
-  border: 1px solid rgb(165, 165, 165);
-  border-radius: 8px;
+.segundo{
   margin: 5px;
+  margin-left: 15px;
+  margin-bottom: 10px;
 }
-.cuarta_segunda{
-  width: 50px;
-  position: relative;
-  display: flex;
-  border: 1px solid rgb(165, 165, 165);
-  border-radius: 8px;
+.tercero{
   margin: 5px;
+  margin-left: 15px;
+  margin-bottom: 10px;
 }
-.quinta_segunda{
-  width: 50px;
-  display: flex;
-  position: relative;
-  border: 1px solid rgb(165, 165, 165);
-  border-radius: 8px;
+.cuarto{
   margin: 5px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+.quinto{
+  margin: 5px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+.sexto{
+  margin: 5px;
+  margin-left: 15px;
+  margin-bottom: 10px;
 }
 
 /*ESTO SON LAS NOTAS DE VISUALIZACION DE LOS PRODUCTO*/
@@ -426,17 +472,6 @@ color: rgb(255, 255, 255);
   bottom: 585px;
   left: 800px;
 }
-.lo{
-  display: flex;
-  position: relative ;
-  bottom: 642px;
-  left: 800px;
-z-index: -1;
-  height: 33px;
-  background-color: #222f3d;
-
-  width: 140px;
-}
 .calificaciones:hover{
   color: rgb(255, 136, 0);
   text-decoration: solid;
@@ -451,51 +486,3 @@ z-index: -1;
   left: 800px;
 }
 
-/*ESTO son las imagenes del modal*/
-.imagenes{
- display: flex;
- width: 250px;
- margin-top: -480px;
- margin-left: 900px;
- 
-}
-.primero{
-  width: 50px;
-  display: flex;
-  position: relative;
-  border: 1px solid rgb(165, 165, 165);
-  border-radius: 8px;
-  margin: 5px;
-}
-.segunda{
-  display: flex;
-  position: relative;
-  width: 50px;
-  border: 1px solid rgb(165, 165, 165);
-  border-radius: 8px;
-  margin: 5px;
-}
-.tercer{
-  width: 50px;
-  display: flex;
-  position: relative;
-  border: 1px solid rgb(165, 165, 165);
-  border-radius: 8px;
-  margin: 5px;
-}
-.cuarta{
-  width: 50px;
-  position: relative;
-  display: flex;
-  border: 1px solid rgb(165, 165, 165);
-  border-radius: 8px;
-  margin: 5px;
-}
-.quinta{
-  width: 50px;
-  display: flex;
-  position: relative;
-  border: 1px solid rgb(165, 165, 165);
-  border-radius: 8px;
-  margin: 5px;
-}
