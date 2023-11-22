@@ -55,3 +55,30 @@ num5.addEventListener("click", function(){
     imagenModal.src = num5.src
     setActive(num5)
 })
+
+const miniaturaItems = document.querySelectorAll(".fondo");
+
+miniaturaItems.forEach((miniatura) => {
+  miniatura.addEventListener("mouseover", function () {
+    // Obtén la URL de la imagen de la miniatura
+    const urlImagen = miniatura.getAttribute("src");
+
+    // Cambia la imagen principal
+    abrirModal.setAttribute("src", urlImagen);
+  });
+
+  miniatura.addEventListener("click", function () {
+    // Obtén la URL de la imagen de la miniatura clicada
+    const urlImagen = miniatura.getAttribute("src");
+
+    // Muestra la imagen en el modal
+    imagenModal.setAttribute("src", urlImagen);
+
+    // Muestra la descripción en el modal
+    descripcionModal.style.display = "block";
+
+    // Muestra el modal
+    miModal.style.display = "block";
+
+  });
+});

@@ -302,7 +302,8 @@ margin-left: 1090px;
 
 .fa-xmark{
   display: flex;
-  margin-left: 1395px;
+  padding-top: 2px;
+  margin-left: 1379px;
   border: 1px solid blue;
   border-radius: 5px;
   line-height: 1.1em;
@@ -357,29 +358,33 @@ button{
   display: flex;
 }
 .tienda{
+  padding-top: 17px;
     display: flex;
     position: relative ;
     width: 350px;
-    font-size: 19px;
+    font-size: 13px;
     color: rgb(8, 169, 219);
     bottom: 580px;
-    left: 800px;
+    left: 730px;
 }
 .tienda_text{
-  color: rgb(8, 169, 219);
+  color: rgb(5, 140, 131);
 }
 .tienda_text:hover{
   color: rgb(255, 136, 0);
   text-decoration: solid;
 }
+.calificacion_producto{
+  margin-left: -72px;
+}
 .text-init{
-  margin-top: 295px;
+  margin-top: 340px;
   display: flex;
   position: relative ;
-  width: 350px;
-  font-size: 18px;
+  width: 500px;
+  font-size: 24.3px;
   bottom: 580px;
-  left: 800px;
+  left: 730px;
 }
 .sub-imagenes{
   margin-top: -607px;
@@ -391,7 +396,7 @@ button{
   position: relative;
   border: 1px solid rgb(165, 165, 165);
   border-radius: 8px;
-  
+  transition: border 0.3s ease, box-shadow 0.3s ease;
 }
 .primero{
 margin: 5px;
@@ -413,11 +418,6 @@ margin-bottom: 10px;
   margin-left: 15px;
   margin-bottom: 10px;
 }
-.quinto{
-  margin: 5px;
-  margin-left: 15px;
-  margin-bottom: 10px;
-}
 .sexto{
   margin: 5px;
   margin-left: 15px;
@@ -426,30 +426,31 @@ margin-bottom: 10px;
 
 /*ESTO SON LAS NOTAS DE VISUALIZACION DE LOS PRODUCTO*/
 .estrellas{
+  padding-top: 12px;
   display: flex;
   position: relative ;
   color: #febd68;
-  font-size: 18px;
-  bottom: 603px;
-  left: 830px;
+  font-size: 12px;
+  bottom: 608px;
+  left: 823px;
 }
 
 .down{
   display: flex;
   position: relative ;
-  
-  font-size: 12px;
-  bottom: 603px;
-  left: 837px;
+  font-size: 9px;
+  bottom: 612px;
+  left: 824px;
+  color: #747679;
 }
 .calificaciones{
   display: flex;
   position: relative ;
   width: 350px;
-    font-size: 13px;
-    color: rgb(8, 169, 219);
+  font-size: 14px;
+  color: rgb(5, 140, 131);
   bottom: 623px;
-  left: 980px;
+  left: 870px;
 }
 .uno{
   bottom: 575px;
@@ -467,10 +468,12 @@ color: rgb(255, 255, 255);
 
 }
 .informacion{
+  font-size: 12px;
   display: flex;
   position: relative ;
-  bottom: 585px;
-  left: 800px;
+  bottom: 618px;
+  left: 727px;
+  color: rgb(76, 75, 75);
 }
 .calificaciones:hover{
   color: rgb(255, 136, 0);
@@ -478,11 +481,80 @@ color: rgb(255, 255, 255);
 
 }
 .calificacion{
+  padding-top: 6px;
   display: flex;
   position: relative ;
- 
-  font-size: 18px;
+  font-size: 14px;
   bottom: 580px;
   left: 800px;
 }
 
+.precio{
+  display: flex;
+  position: relative;
+  left: 730px;
+  top: -594px ;
+}
+.primerdigito{
+  font-size: 12px;
+}
+.segundodigito{
+  font-size: 26px;
+}
+.tercerdigito{
+  font-size: 12px;
+}
+.texto-precio{
+  display: flex;
+  position: relative;
+  padding-top: 42px;
+  left: -52px;
+  font-size: 14px;
+}
+.downdos{
+  font-size: 8px;
+  padding-left: 9px;
+  padding-top: 3px;
+}
+.letra-negrilla{
+  font-weight: 750;
+  font-size: 14px;
+}
+.color{
+  display: flex;
+  margin-top: 80px;
+  margin-left: -492px;
+}
+.marca{
+  display: flex;
+  margin-top: 1px;
+  margin-left: -492px;
+}
+.material{
+  display: flex;
+  margin-top: 1px;
+  margin-left: -492px;
+}
+.pocket{
+  display: flex;
+  margin-top: 1px;
+  margin-left: -492px;
+}
+.letra_otra{
+  display: flex;
+  position: relative;
+  font-size: 14px;
+  margin-left: -350px;
+}
+.marron{
+  margin-top: -13px;
+}
+.qcwn{
+  margin-top: -13px;
+}
+.cuero{
+  margin-top: -13px;
+}
+.slip{
+  margin-top: -15px;
+}
