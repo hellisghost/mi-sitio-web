@@ -1,0 +1,13 @@
+
+.col1{
+    border: solid 1px black;
+    width: 200px;
+    height: 20px;
+}
+
+.col1 > div {
+    background-color: rgb(211, 93, 15);
+    height: 100%;
+    width: 0;
+    transition: .5s all linear;
+}
