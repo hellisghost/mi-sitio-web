@@ -558,3 +558,162 @@ color: rgb(255, 255, 255);
 .slip{
   margin-top: -15px;
 }
+
+/* barra de la derecha pequeña completa */
+
+.menu{    
+  width: 208px;
+  height: 500px;
+  position: absolute;
+  margin-left: 1265px;
+  padding: 20px;
+  margin-top: -990px;
+  border: 1px solid rgb(115, 115, 115);
+  border-radius: 20px;
+}
+.preciomenu{
+  margin-left: -10px;
+  margin-top: 14px;
+  height: 30px;
+  font-size: 13px;
+}
+.menuprepri{
+  display: flex;
+  position: relative;
+  margin-left: 12px;
+}
+.valor{
+  margin-left:35px;
+  font-size: 2em;
+  margin-top: -30px;
+}.sub-valor{
+  margin-left:65px;
+  margin-top: -30px;
+}
+.dato{
+  margin-left:80px;
+  margin-top: -18px;
+}
+.dato-menu{
+  font-size: 14px;
+  width: 200px;
+  height: 40px;
+  color: #878787;
+}
+.lugar{
+  width: 260px;
+  height: 20px;
+  
+  color: rgb(29, 194, 219);
+}
+.chispas{
+  font-size: 10px;
+  margin-left: 5px;
+  color: rgb(187, 185, 185);
+}
+.entrega{
+  width: 200px;
+  height: 105px;
+  position: relative;
+  font-size: 14px;
+}
+.entrega2{
+font-weight: bold;
+  margin-top: -16px;
+  margin-left: 72px;
+}
+.entrega3{
+  margin-left: 72px;
+  margin-top: -15px;
+  height: 35px;
+}
+.entrega4{
+  color: green
+}
+.entrega5{
+  font-weight: bold;
+}
+.ubicacion{
+  display: flex;
+  position: relative;
+  width: 260px;
+  height: 30px;
+  margin-top: 20px;
+  font-size: 12px;
+}
+.ubicacion1{
+  color: rgb(5, 140, 86);
+  margin-left: 10px;
+}
+.ubicacion1:hover{
+  color: rgb(219, 162, 29);
+}
+.detalle{
+  font-size: 15px;
+  color: rgb(7, 138, 80);
+}
+.detalle:hover{
+  color: rgb(219, 162, 29);
+}
+.disponible{
+  color: rgb(13, 135, 13);
+  font-size: 18px;
+}
+.canti{
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.can{
+  border-radius: 6px;
+  width: 90px;
+  box-shadow: 0px 2px 0px 0px rgb(155, 151, 151);
+  background-color: #cbccd0;
+}
+.botones{
+  margin-left: -5px;
+  margin-top: 13px;
+}
+.boton1{
+  font-weight: bold;
+  position: relative;
+  background-color:gold;
+  color: #000;
+  height: 33px;
+  border-radius: 20px;
+  width: 200px;
+  border: none;
+  margin-left: 10px;
+}
+.boton2{
+  font-weight: bold;
+  color: #000;
+  border-radius: 20px;
+  border: none;
+  margin-left: 10px;
+  margin-top: 10px;
+  position: relative;
+  height: 30px;
+  width: 200px;
+  background-color: rgb(255, 136, 0);
+}
+.calificaciones_totales{
+  background-color: red;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  margin-left: -480px;
+  margin-top: -200px;
+  display: none;
+}
+.triangulo{
+  position: relative;
+  width: 0;
+  height: 0;
+  border-right: 20px solid transparent;
+  border-top: 20px solid transparent;
+  border-left: 20px solid transparent;
+  border-bottom: 20px solid #ff0000;
+  margin-left: -350px;
+  margin-top: -339px;
+  display: none;
+}
