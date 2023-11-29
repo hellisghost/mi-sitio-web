@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -21,13 +20,13 @@ header {
 }
 
 .navbar {
-height: 60px;
-display: flex;
-align-items: center;
-cursor: pointer;
-color: #fff;
-max-width: 1800px;
-margin: 1px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #fff;
+  max-width: 1800px;
+  margin: 1px;
 }
 
 .nav-logo img {
@@ -38,7 +37,7 @@ margin: 1px;
 
 .address .deliver {
   color: #ccc;
-  padding:8px;
+  padding: 8px;
 }
 
 .address .map-icon {
@@ -95,7 +94,7 @@ margin: 1px;
 }
 
 .sign-in,
-.returns  {
+.returns {
   padding: 10px;
   font-size: 0.875rem;
   font-weight: 400;
@@ -122,17 +121,20 @@ margin: 1px;
   color: black;
   font-size: 0.925rem;
 }
+
 .banner-1 {
   padding: 5px;
   background: #f3f4f6;
   color: #fff;
   font-size: 0.925rem;
 }
-.contenedor2{
+
+.contenedor2 {
   margin-left: 160px;
   cursor: pointer;
 }
-.escritocontenedor2{
+
+.escritocontenedor2 {
   display: flex;
   margin-left: 30px;
   margin-top: 10px;
@@ -140,16 +142,19 @@ margin: 1px;
   max-width: 55%;
   font-weight: bold;
 }
-.escritocontenedor2 > a{
+
+.escritocontenedor2>a {
   color: #000;
   cursor: pointer;
 }
-.captura1{
+
+.captura1 {
   display: flex;
   padding-right: 27px;
   cursor: pointer;
 }
-.captura2{
+
+.captura2 {
   display: flex;
   padding-right: 221px;
   cursor: pointer;
@@ -160,7 +165,7 @@ margin: 1px;
   background-color: #fff;
 }
 
-.links-contenedor3{
+.links-contenedor3 {
   display: flex;
   align-items: center;
   list-style: none;
@@ -169,7 +174,8 @@ margin: 1px;
   font-size: 11px;
   margin-left: 35px;
 }
-.links-contenedor3 > li > a{
+
+.links-contenedor3>li>a {
   color: #000;
 }
 
@@ -185,7 +191,8 @@ margin: 1px;
   align-items: center;
   cursor: pointer;
 }
-.panel > .menu{
+
+.panel>.menu {
   margin-left: -10px;
   color: #fff;
 }
@@ -203,21 +210,22 @@ margin: 1px;
   padding: 10px 0;
 }
 
-.icono{
-    font-size: 35px;
-    padding: 3px;
+.icono {
+  font-size: 35px;
+  padding: 3px;
 }
-.icono1{
-    display: flex;
-    margin-top: 14px;
-    padding-right: 15px;
+
+.icono1 {
+  display: flex;
+  margin-top: 14px;
+  padding-right: 15px;
 }
 
 
 
 /* para realizacion de la pagina desplegable */
 
-main{
+main {
   width: 100%;
   height: 100vh;
   position: fixed;
@@ -228,79 +236,85 @@ main{
   padding-top: 100px;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0, 0, 0, 0.7);
 }
-.modal{
+
+.modal {
   width: 90%;
   height: 75%;
   background: #f3f3f3;
-  
+
 }
-.cerrar{
+
+.cerrar {
   display: none;
 }
-.product-image img{
+
+.product-image img {
   margin: 20px;
   width: 450px;
 }
-.product-image{
+
+.product-image {
   margin-left: 229px;
 }
 
-.product-info{
+.product-info {
   display: flex;
-  margin-left:1060px;
+  margin-left: 1060px;
   margin-top: -480px;
 }
 
-.product-info p{
+.product-info p {
   display: flex;
   margin-left: 42px;
   font-size: 12px;
 }
-.descripcion{
+
+.descripcion {
   margin-right: 63px;
 }
 
-.imagenes_cambio{
-display: flex;
-margin-top: 32px;
-margin-left: 1090px;
+.imagenes_cambio {
+  display: flex;
+  margin-top: 32px;
+  margin-left: 1090px;
 }
 
-.imagenes_cambio > img {
+.imagenes_cambio>img {
   padding: 5px;
   border: 2px solid black;
 }
 
-.imagenes_cambio > .activado{
-    border: 3px solid #ff9002;
+.imagenes_cambio>.activado {
+  border: 3px solid #ff9002;
 }
 
-.img{
+.img {
   width: 35px;
   cursor: pointer;
   border-color: black;
   margin: 5px;
 }
-.superior a{
- margin-left: 10px;
- color: #000;
- cursor: pointer;
+
+.superior a {
+  margin-left: 10px;
+  color: #000;
+  cursor: pointer;
 }
 
-.superior{
+.superior {
   display: flex;
   margin: 10px;
 }
 
-.superior li{
+.superior li {
   display: flex;
   cursor: pointer;
   border: #febd68;
 }
 
-.fa-xmark{
+.fa-xmark {
   display: flex;
   padding-top: 2px;
   margin-left: 1379px;
@@ -310,46 +324,49 @@ margin-left: 1090px;
   cursor: pointer;
   font-size: 25px;
 }
-.imagen_ingreso img{
+
+.imagen_ingreso img {
   margin: 90px;
   width: 300px;
   cursor: pointer;
 }
 
-.texto{
+.texto {
   margin-left: 15px;
   padding: 15px;
   margin-top: -80px;
 }
 
-.botones{
+.botones {
   margin-left: 56px;
 }
 
-button{
-    background-color: #000;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
+button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.fa-plane-departure{
+.fa-plane-departure {
   color: #febd68;
 }
-.antes_modal{
+
+.antes_modal {
   background-color: #f3f3f3;
 }
-.marcado{
+
+.marcado {
   border-bottom: 3px solid #ff9002;
 }
 
 /* imagen para el inicio */
-.inicio{
+.inicio {
   overflow-x: hidden;
 }
 
-.imagen_prin{
+.imagen_prin {
   margin-top: 14px;
   width: 600px;
   height: 610px;
@@ -357,212 +374,245 @@ button{
   left: 100px;
   display: flex;
 }
-.tienda{
+
+.tienda {
   padding-top: 17px;
-    display: flex;
-    position: relative ;
-    width: 350px;
-    font-size: 13px;
-    color: rgb(8, 169, 219);
-    bottom: 580px;
-    left: 730px;
+  display: flex;
+  position: relative;
+  width: 350px;
+  font-size: 13px;
+  color: rgb(8, 169, 219);
+  bottom: 580px;
+  left: 730px;
 }
-.tienda_text{
+
+.tienda_text {
   color: rgb(5, 140, 131);
 }
-.tienda_text:hover{
+
+.tienda_text:hover {
   color: rgb(255, 136, 0);
   text-decoration: solid;
 }
-.calificacion_producto{
+
+.calificacion_producto {
   margin-left: -72px;
 }
-.text-init{
+
+.text-init {
   margin-top: 340px;
   display: flex;
-  position: relative ;
+  position: relative;
   width: 500px;
   font-size: 24.3px;
   bottom: 580px;
   left: 730px;
 }
-.sub-imagenes{
+
+.sub-imagenes {
   margin-top: -607px;
   margin-left: 33px;
- }
- .fondo{
-  width:37px;
+}
+
+.fondo {
+  width: 37px;
   display: flex;
   position: relative;
   border: 1px solid rgb(165, 165, 165);
   border-radius: 8px;
   transition: border 0.3s ease, box-shadow 0.3s ease;
 }
-.primero{
-margin: 5px;
-margin-left: 15px;
-margin-bottom: 10px;
-}
-.segundo{
+
+.primero {
   margin: 5px;
   margin-left: 15px;
   margin-bottom: 10px;
 }
-.tercero{
+
+.segundo {
   margin: 5px;
   margin-left: 15px;
   margin-bottom: 10px;
 }
-.cuarto{
+
+.tercero {
   margin: 5px;
   margin-left: 15px;
   margin-bottom: 10px;
 }
-.sexto{
+
+.cuarto {
+  margin: 5px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.sexto {
   margin: 5px;
   margin-left: 15px;
   margin-bottom: 10px;
 }
 
 /*ESTO SON LAS NOTAS DE VISUALIZACION DE LOS PRODUCTO*/
-.estrellas{
+.estrellas {
   padding-top: 12px;
   display: flex;
-  position: relative ;
+  position: relative;
   color: #febd68;
   font-size: 12px;
   bottom: 608px;
   left: 823px;
 }
 
-.down{
+.down {
   display: flex;
-  position: relative ;
+  position: relative;
   font-size: 9px;
   bottom: 612px;
   left: 824px;
   color: #747679;
 }
-.calificaciones{
+
+.calificaciones {
   display: flex;
-  position: relative ;
+  position: relative;
   width: 350px;
   font-size: 14px;
   color: rgb(5, 140, 131);
   bottom: 623px;
   left: 870px;
 }
-.uno{
+
+.uno {
   bottom: 575px;
   left: 858px;
   display: flex;
-  position: relative ;
+  position: relative;
   color: rgb(255, 136, 0);
 }
-.dos{
+
+.dos {
   bottom: 595px;
   left: 800px;
   display: flex;
-  position: relative ;
-color: rgb(255, 255, 255);
+  position: relative;
+  color: rgb(255, 255, 255);
 
 }
-.informacion{
+
+.informacion {
   font-size: 12px;
   display: flex;
-  position: relative ;
+  position: relative;
   bottom: 618px;
   left: 727px;
   color: rgb(76, 75, 75);
 }
-.calificaciones:hover{
+
+.calificaciones:hover {
   color: rgb(255, 136, 0);
   text-decoration: solid;
 
 }
-.calificacion{
+
+.calificacion {
   padding-top: 6px;
   display: flex;
-  position: relative ;
+  position: relative;
   font-size: 14px;
   bottom: 580px;
   left: 800px;
 }
 
-.precio{
+.precio {
   display: flex;
   position: relative;
   left: 730px;
-  top: -594px ;
+  top: -594px;
 }
-.primerdigito{
+
+.primerdigito {
   font-size: 12px;
 }
-.segundodigito{
+
+.segundodigito {
   font-size: 26px;
 }
-.tercerdigito{
+
+.tercerdigito {
   font-size: 12px;
 }
-.texto-precio{
+
+.texto-precio {
   display: flex;
   position: relative;
   padding-top: 42px;
   left: -52px;
   font-size: 14px;
 }
-.downdos{
+
+.downdos {
   font-size: 8px;
   padding-left: 9px;
   padding-top: 3px;
 }
-.letra-negrilla{
+
+.letra-negrilla {
   font-weight: 750;
   font-size: 14px;
 }
-.color{
+
+.color {
   display: flex;
   margin-top: 80px;
   margin-left: -492px;
 }
-.marca{
+
+.marca {
   display: flex;
   margin-top: 1px;
   margin-left: -492px;
 }
-.material{
+
+.material {
   display: flex;
   margin-top: 1px;
   margin-left: -492px;
 }
-.pocket{
+
+.pocket {
   display: flex;
   margin-top: 1px;
   margin-left: -492px;
 }
-.letra_otra{
+
+.letra_otra {
   display: flex;
   position: relative;
   font-size: 14px;
   margin-left: -350px;
 }
-.marron{
+
+.marron {
   margin-top: -13px;
 }
-.qcwn{
+
+.qcwn {
   margin-top: -13px;
 }
-.cuero{
+
+.cuero {
   margin-top: -13px;
 }
-.slip{
+
+.slip {
   margin-top: -15px;
 }
 
 
 /* barra de la derecha pequeña completa */
 
-.menu{    
+.menu {
   width: 208px;
   height: 500px;
   position: absolute;
@@ -572,68 +622,83 @@ color: rgb(255, 255, 255);
   border: 1px solid rgb(115, 115, 115);
   border-radius: 20px;
 }
-.preciomenu{
+
+.preciomenu {
   margin-left: -10px;
   margin-top: 14px;
   height: 30px;
   font-size: 13px;
 }
-.menuprepri{
+
+.menuprepri {
   display: flex;
   position: relative;
   margin-left: 12px;
 }
-.valor{
-  margin-left:35px;
+
+.valor {
+  margin-left: 35px;
   font-size: 2em;
   margin-top: -30px;
-}.sub-valor{
-  margin-left:65px;
+}
+
+.sub-valor {
+  margin-left: 65px;
   margin-top: -30px;
 }
-.dato{
-  margin-left:80px;
+
+.dato {
+  margin-left: 80px;
   margin-top: -18px;
 }
-.dato-menu{
+
+.dato-menu {
   font-size: 14px;
   width: 200px;
   height: 40px;
   color: #878787;
 }
-.lugar{
+
+.lugar {
   width: 260px;
   height: 20px;
-  
+
   color: rgb(29, 194, 219);
 }
-.chispas{
+
+.chispas {
   font-size: 10px;
   color: rgb(187, 185, 185);
 }
-.entrega{
+
+.entrega {
   width: 200px;
   height: 105px;
   position: relative;
   font-size: 14px;
 }
-.entrega2{
-font-weight: bold;
+
+.entrega2 {
+  font-weight: bold;
   margin-top: -16px;
   margin-left: 72px;
 }
-.entrega3{
+
+.entrega3 {
   margin-left: 72px;
   margin-top: -15px;
   height: 35px;
 }
-.entrega4{
-  width: 210px; 
+
+.entrega4 {
+  width: 210px;
 }
-.entrega5{
+
+.entrega5 {
   font-weight: bold;
 }
-.ubicacion{
+
+.ubicacion {
   display: flex;
   position: relative;
   width: 260px;
@@ -641,42 +706,51 @@ font-weight: bold;
   margin-top: 20px;
   font-size: 12px;
 }
-.ubicacion1{
+
+.ubicacion1 {
   color: rgb(5, 140, 86);
   margin-left: 10px;
 }
-.ubicacion1:hover{
+
+.ubicacion1:hover {
   color: rgb(219, 162, 29);
 }
-.detalle{
+
+.detalle {
   font-size: 15px;
   color: rgb(7, 138, 80);
 }
-.detalle:hover{
+
+.detalle:hover {
   color: rgb(219, 162, 29);
 }
-.disponible{
+
+.disponible {
   color: rgb(13, 135, 13);
   font-size: 18px;
 }
-.canti{
+
+.canti {
   margin-top: 12px;
   margin-bottom: 12px;
 }
-.can{
+
+.can {
   border-radius: 6px;
   width: 90px;
   box-shadow: 0px 2px 0px 0px rgb(155, 151, 151);
   background-color: #cbccd0;
 }
-.botones{
+
+.botones {
   margin-left: -5px;
   margin-top: 13px;
 }
-.boton1{
+
+.boton1 {
   font-weight: bold;
   position: relative;
-  background-color:gold;
+  background-color: gold;
   color: #000;
   height: 33px;
   border-radius: 20px;
@@ -684,7 +758,8 @@ font-weight: bold;
   border: none;
   margin-left: 10px;
 }
-.boton2{
+
+.boton2 {
   font-weight: bold;
   color: #000;
   border-radius: 20px;
@@ -696,7 +771,8 @@ font-weight: bold;
   width: 200px;
   background-color: rgb(255, 136, 0);
 }
-.calificaciones_totales{
+
+.calificaciones_totales {
   background-color: red;
   width: 300px;
   height: 300px;
@@ -705,7 +781,8 @@ font-weight: bold;
   margin-top: -200px;
   display: none;
 }
-.triangulo{
+
+.triangulo {
   position: relative;
   width: 0;
   height: 0;
